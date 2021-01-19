@@ -50,3 +50,10 @@ Data is binary format, equivalent to:
 d = os.path.dirname(sys.modules[package].__file__)
 data = open(os.path.join(d, resource), 'rb').read()
 ```
+
+read csv 
+
+```
+byteio = io.BytesIO(pkgutil.get_data(__name__, path))
+df = pd.read_csv(byteio, sep='\t', header=None, squeeze=True)
+```
