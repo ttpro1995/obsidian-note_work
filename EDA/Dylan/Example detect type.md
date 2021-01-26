@@ -1,6 +1,6 @@
 [[dylan profiler visions]][[typeset]]
 
-```
+```python
 from typing import Sequence
 
 import numpy as np
