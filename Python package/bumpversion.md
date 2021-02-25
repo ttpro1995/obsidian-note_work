@@ -5,7 +5,7 @@ major, minor, patch
 
 Example
 ```
-bumpversion major --no-commit
-bumpversion minor --no-commit
-bumpversion patch --no-commit
+bumpversion major --no-commit --no-tag
+bumpversion minor --no-commit --no-tag
+bumpversion patch --no-commit --no-tag
 ```
